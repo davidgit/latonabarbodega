@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-md fixed-top navbar-transparent" color-on-scroll="500">
+<nav class="navbar navbar-expand-md fixed-top">
   <div class="container">
     <div class="navbar-translate">
     {%- assign page_paths = site.header_pages -%}
@@ -20,9 +20,9 @@
           {%- endif -%}
         {% endfor -%}
           <li class="nav-item">
-              <a class="nav-link" rel="tooltip" title="Segueix-nos a Twitter" data-placement="bottom" href="https://twitter.com/{{ site.twitter_username | escape }}" target="_blank">
-              <i class="fa fa-twitter"></i>
-              <p class="d-lg-none">Twitter</p>
+              <a class="nav-link" rel="tooltip" title="Segueix-nos a Tripadvisor" data-placement="bottom" href="{{ site.tripadvisor_link | escape }}" target="_blank">
+              <i class="fa fa-tripadvisor"></i>
+              <p class="d-lg-none">Tripadvisor</p>
             </a>
           </li>
           <li class="nav-item">
@@ -43,15 +43,15 @@
 </nav>
 
 <div class="wrapper">
-  <div class="page-header section-dark" style="background-image: url('assets/img/fotos/gavas.jpg')">
+  <div class="page-header section-dark" style="background-image: url('assets/img/fotos/isil.jpg')">
     <div class="filter"></div>
     <div class="content-center">
-      <div class="container motto text-center">
-       <div class="title-brand">
-         <h1>{{ site.title | escape }}</h1>
-       </div>
-       <h3>{{ site.description | escape }}</h2>
-      </div>
+      <!--<div class="container motto text-center">-->
+       <!--<div class="title-brand">-->
+         <!--<h1>{{ site.title | escape }}</h1>-->
+       <!--</div>-->
+       <!--<h3>{{ site.description | escape }}</h2>-->
+      <!--</div>-->
     </div>
   </div>
 

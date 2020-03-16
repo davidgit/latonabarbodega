@@ -13,18 +13,17 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Formatgeria de Gavàs
-author: La Gavasenca, SCCL
-email: "lagavasenca@gmail.com"
-description: Elaborem formatges de llet crua de cabra i pasturem el nostre ramat a l'Alt Pirineu
+title: Bar Bodega La Tona
+author: Comas Bruna SL
+email: "info@latonabarbodega.cat"
+description: Bar Bodega La Tona
 #baseurl: "" # the subpath of your site, e.g. /blog
 #url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: formatgedegavas
-facebook_username: formatgeriagavas
-instagram_username: formatgeriadegavas
-github_username: davidgit
+tripadvisor_link: https://www.tripadvisor.com/Restaurant_Review-g4597927-d4317283-Reviews-La_Tona_Bar_Bodega-Isil_Province_of_Lleida_Catalonia.html?m=19905
+facebook_username: LaTonaBarBodega
+instagram_username: latonaisil
 
-repository: "davigit/formatgeriadegavas"
+repository: "davigit/latonabarbodega"
 
 # Build settings
 plugins:

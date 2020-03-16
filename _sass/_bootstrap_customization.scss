@@ -1,67 +1,111 @@
 // This is the place to place Bootstrap-related CSS customizations.
 // As example you can start by importing the _bootswatch.scss file from one of the
 // theme provided by https://bootswatch.com .
-
-
-// Navbar ======================================================================
-
-.bg-dark {
-  background-color: $gavas !important;
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, .navbar, .brand, a, .td-name, td, button, input, select, textarea {
+  font-family: "Raleway", Verdana, sans-serif !important;
 }
 
-h4 a:hover, h4 a:active, h4 a:focus {
-  color: black;
+.media .media-heading {
+  font-family: "Raleway", Verdana, sans-serif;
+}
+
+body {
+  font-family: "Raleway", Verdana, sans-serif;
+}
+
+.navbar {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+dl {
+  text-align: justify;
+}
+
+dl a {
+  color: $primary !important;
+}
+
+dt {
+  color: $primary !important;
+  font-weight: normal;
+  border-right: 2px solid $primary;
+}
+
+dt ul {
+  padding: 0;
+  list-style: none;
+}
+
+dt ul li {
+  margin-bottom: 1rem; ;
+}
+
+dl span {
+  font-weight: bold;
+}
+
+dd strong {
+  font-weight: bold;
+}
+
+.bg-dark {
+  background-color: $latona !important;
+}
+
+.text-primary, .nav-link {
+  color: $latona !important;
+}
+
+.text-primary:hover {
+  color: $latona !important;
 }
 
 a.text-primary, a.text-primary:hover, a.text-primary:active, a.text-primary:focus {
-  color: $gavas !important;
+  color: $latona !important;
 }
 
 .btn-primary {
-  background-color: $gavas;
-  border-color: $gavas;
+  background-color: $latona;
+  border-color: $latona;
 }
 
 .btn-primary.btn-link {
-  color: $gavas;
+  color: $latona;
 }
 
 .btn-primary.btn-link .caret {
-  border-top-color: $gavas;
+  border-top-color: $latona;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
-  background-color: $gavas-green;
-  border-color: $gavas-green;
+  background-color: $latona;
+  border-color: $latona;
 }
 
 .progress-bar-primary {
-  background-color: $gavas;
+  background-color: $latona;
 }
 
 .label-primary {
-  background-color: $gavas;
+  background-color: $latona;
 }
 
 .icon-primary {
-  color: $gavas;
+  color: $latona;
 }
 
 .btn-primary.disabled {
-  background-color: $gavas !important;
-  border-color: $gavas;
+  background-color: $latona !important;
+  border-color: $latona;
   opacity: 0.2;
 }
 
 .navbar .container {
-  background-image: url("img/LogoTransparent.png");
+  background-image: url("img/logo.png");
   background-clip: content-box;
   background-origin: content-box;
   background-repeat: no-repeat;
   background-position: left center;
   background-size: contain;
-}
-
-.navbar-transparent .container {
-  background-image: none !important;
 }

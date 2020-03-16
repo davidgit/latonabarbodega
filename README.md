@@ -1,1 +1,1 @@
-www.formatgeriadegavas.cat
+www.latonabarbodega.cat
