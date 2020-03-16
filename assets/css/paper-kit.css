@@ -2003,7 +2003,7 @@ textarea.form-control {
 }
 .navbar .nav-link p {
   margin: 0px 0px;
-  color: #9A9A9A !important;
+  color: #9A9A9A;
   text-transform: uppercase;
   font-weight: 600;
   font-size: 12px;
@@ -4902,7 +4902,7 @@ textarea.form-control {
   }
   .navbar-collapse .navbar-nav > .nav-item > .nav-link {
     margin: 0px 0px;
-    color: #9A9A9A !important;
+    color: #9A9A9A;
     text-transform: uppercase;
     font-weight: 600;
     font-size: 12px;
